@@ -8,7 +8,7 @@ print(trait)
 
 print("Hmmmmmm. . .")
 
-if trait == "brave":
+if trait == ("brave" or trait == "daring") and not "tired":
     print("You belong in Gryffindor!")
     house = "Gryffindor"
 elif trait == "intelligent":
